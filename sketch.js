@@ -58,8 +58,8 @@ class Pendulum {
         // line(this.pivotPoint.x, this.pivotPoint.y, this.position.x, this.position.y);
         
         ellipseMode(CENTER);
-        fill(250, 250, 250);                                // pendulum ball color
-        // fill(0, 0, 250);                                // pendulum ball color
+        // fill(250, 250, 250);                                // pendulum ball color
+        fill(0, 250, 0);                                // pendulum ball color
         ellipse(this.position.x, this.position.y, this.diameter, this.diameter);
     }
 }
